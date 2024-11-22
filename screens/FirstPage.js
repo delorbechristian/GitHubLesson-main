@@ -8,6 +8,7 @@ function MainPage(props) {
             <MainButton>Main Page</MainButton>
             <MainButton>Second Page</MainButton>
             <MainButton>Third Page</MainButton>
+            <MainButton>Fourth Page</MainButton>
         </View>
     );
 }
@@ -16,8 +17,11 @@ export default MainPage;
 
 const styles = StyleSheet.create({
     container: {
+        backgroundColor: '#129421',
         flex: 1,
         backgroundColor: '#aaaaaa',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        borderColor: 'black',
+        alignItems: 'center'
     }
 });
